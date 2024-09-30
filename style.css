@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("img/back.gif");
+    background-size: cover;
+}
+
+.text-editor-header {
+    padding: 10px 20px;
+    background-color: rgb(85, 206, 228);
+    border-bottom: #575757 2px solid;
+}
+
+.container {
+    width: 660px;
+}
+
+button,
+select,
+input[type="file"],
+label {
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.card {
+    box-shadow: 0px 0px 17px -1px #575757;
+}
+
+.editor {
+    padding: 10px;
+    height: 420px;
+    outline: none;
+    overflow: auto;
+}
